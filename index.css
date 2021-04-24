@@ -1,0 +1,43 @@
+.navbar-brand{
+	margin-bottom: 30px;
+}
+.navbar-inverse{
+	border-radius: 0px;
+}
+#myNavbar{
+	padding-left: 100px;
+
+}
+#down{
+	margin-top:20px;
+	margin-left:100px;
+	position: relative;
+}
+.color{
+	background-color: #eeeeee;
+}
+footer{
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.container{
+	padding:10px;
+}
+h6{
+	font-size: 15px;
+}
+i{
+	font-size:1em;
+	padding: 10px;
+	color: #ececec;
+}
+i:hover{
+	color: #aeaeae;
+	cursor: pointer;
+}
+.cards{
+	margin:40px;
+}
+.row{
+
+}

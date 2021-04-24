@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<style>
+    .container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+a{
+  text-decoration:none;
+  color:blue;
+}
+
+</style>
+<body>
+
+<div class="container">
+  <h2>BOOK APPOINTMENT</h2>
+  <form action="/action_page.php">
+    <div class="form-group">
+      <label for="patient name">Patient Name:</label>
+      <input type="name" class="form-control" id="name" placeholder="Enter Patient Name" name="name">
+    </div>
+    <div class="form_control">
+    <label for="gender">Gender:</label>
+        <select id="gender">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+     </div>
+    <div class="form-group">
+      <label for="contact">Contact Number:</label>
+      <input type="contact" class="form-control" id="contact" placeholder="Enter Contact Number" name="contact">
+    </div>
+    <div class="form-group">
+    <label for="email">Email address:</label>
+    <input type="email" class="form-control" id="email">
+  </div>
+  <div class="form-group">
+    <label for="dob">Date Of Birth:</label>
+   <input type="date" class="form-control" id="dob">
+  </div>
+  <div class="form-group">
+    <label for="location">Hospital Loaction:</label>
+    <input type="location" class="form-control" id="location">
+  </div>
+  <div class="form-group">
+    <label for="date">Prefered Date Of Appointment:</label>
+    <input type="date" class="form-control" id="date">
+  </div>
+  <div class="form-group">
+    <label for="prefered time">Prefered Time:</label>
+    <input type="time" class="form_control"
+    id="time">
+    </div>
+    <div class="form_group">
+     <select id="department">
+            <option value="clininc">clininc</option>
+            <option value="labaratory">labaratory</option>
+            <option value="operation thearte">operation thearte</option>
+            <option value="materials">materials</option>
+            <option value="nursing">nursing</option>
+        </select>
+    </div>
+    <div style="margin-top:10px">
+     <button type="submit" class="btn btn-default">Submit</button>
+     <div style="margin-top:10px">
+     <button type="reset" class="btn btn-default">Reset</button>
+    <button type="back" class="btn btn-default"><a href="index.html">back </a></button>
+ </div>
+ </form>
+</div>
+</body>
+</html>
